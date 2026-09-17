@@ -1,0 +1,86 @@
+# ==========================================
+# Flutter & Dart gitignore for BIRU Go
+# ==========================================
+
+# Flutter/Dart build and tool directories
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Android build and cache
+.gradle/
+**/android/.gradle/
+**/android/.kotlin/
+**/android/.cxx/
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/app/build/
+android/app/build/
+/android/build/
+android/build/
+**/android/build/
+
+# Keystores & Security Secrets (Never commit credentials!)
+key.properties
+**/*.keystore
+**/*.jks
+
+# iOS & macOS (if added in the future)
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/doc/api/
+
+# IDE files (IntelliJ / Android Studio / VS Code)
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Test folder (large videos, benchmark scripts, test media)
+/test/
+
+# Archive & experimental models
+assets/models/model-lain/
+*.onnx
+
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Miscellaneous
+*.class
+*.log
+*.swp
+.history
+.svn/
+migrate_working_dir/
+app.*.symbols
+app.*.map.json
