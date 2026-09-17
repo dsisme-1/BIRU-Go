@@ -28,8 +28,8 @@ Offline, on-device bird species identification mobile app built with Flutter and
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/<username>/biru-go.git
-cd biru-go
+git clone https://github.com/dsisme-1/BIRU-Go.git
+cd BIRU-Go
 
 # 2. Install dependencies
 flutter pub get
