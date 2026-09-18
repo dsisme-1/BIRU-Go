@@ -9,11 +9,29 @@ Offline, on-device bird image recognition mobile app built with Flutter and Tens
 - **Photo & Gallery Detection**: High-resolution image analysis using YOLOv8n (640x640).
 - **Local History**: Saves detection results locally using SQLite.
 
-## Models
+## Models & Benchmark
+
+### Models Used
 
 - **Live Camera**: YOLO11n (320×320) — `assets/models/yolo11n.tflite`
 - **Photo / Gallery**: YOLOv8n (640×640) — `assets/models/yolov8n.tflite`
 - **Dataset**: NABirds Dataset (555 bird species)
+
+### Dataset Split
+
+| Split | Images | % of Total | Notes |
+| :--- | :---: | :---: | :--- |
+| **Train** | 21,536 | 44.35% | 90% of training subset (23,929) |
+| **Validation** | 2,393 | 4.93% | 10% of training subset (23,929) |
+| **Test** | 24,633 | 50.72% | Official NABirds test set |
+| **Total** | **48,562** | **100.00%** | 555 classes |
+
+### Benchmark Evaluation (Test Set)
+
+| Model | Input Size | Target Mode | Precision | Recall | mAP50 | mAP50-95 |
+| :--- | :---: | :--- | :---: | :---: | :---: | :---: |
+| **YOLO11n** | 320×320 | Live Camera | 57.44% | 53.68% | 56.40% | 44.16% |
+| **YOLOv8n** | 640×640 | Photo / Gallery | 64.75% | 59.91% | 64.94% | 50.84% |
 
 ## Getting Started
 
