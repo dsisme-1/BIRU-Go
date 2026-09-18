@@ -2,6 +2,8 @@
 
 Offline, on-device bird image recognition mobile app built with Flutter and TensorFlow Lite.
 
+> 📱 **Ready-to-Install APK**: You can directly download [`biru-go.apk`](biru-go.apk) (~62.6 MB, lightweight under 100 MB) to install and run the app immediately on Android devices without compiling from source.
+
 ## Features
 
 - **Offline Inference**: Runs 100% on-device without internet or cloud APIs.
@@ -35,7 +37,15 @@ Offline, on-device bird image recognition mobile app built with Flutter and Tens
 
 ## Getting Started
 
-### Prerequisites
+### Quick Install (Pre-built APK)
+
+If you just want to use the application on your Android phone (Android 7.0+ / minSdk 24):
+1. Download [`biru-go.apk`](biru-go.apk) (~62.6 MB).
+2. Transfer or open the APK on your device and tap **Install**.
+
+---
+
+### Prerequisites (For Developers)
 
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) (v3.24.0 or newer)
 - [Dart SDK](https://dart.dev/get-dart) (v3.5.0 or newer)
@@ -69,6 +79,7 @@ The APK will be generated at:
 
 ```text
 biru/
+├── biru-go.apk       # Pre-built release APK (~62.6 MB)
 ├── android/          # Native Android configuration
 ├── assets/
 │   ├── images/       # App logo & icons
