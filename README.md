@@ -1,6 +1,6 @@
 # BIRU Go
 
-Offline, on-device bird species identification mobile app built with Flutter and TensorFlow Lite.
+Offline, on-device bird image recognition mobile app built with Flutter and TensorFlow Lite.
 
 ## Features
 
